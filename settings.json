@@ -1,0 +1,39 @@
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.fontFamily": "Droid Sans Mono for Powerline",
+    "git.autofetch": true,
+    "editor.suggestSelection": "first",
+    "files.exclude": { // wont show in file directory ui
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "cSpell.userWords": [
+        "Cust",
+        "Ionicons",
+        "jasonly",
+        "linkedin"
+    ],
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "editor.formatOnSave": true, //need true
+    "eslint.format.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true, //need true
+        "source.fixAll.markdownlint": true
+    },
+    "workbench.colorTheme": "Monokai Pro",
+}
